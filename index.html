@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Birthday Monika Didi</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sky"></div>
+<canvas id="sparkCanvas"></canvas>
+
+<!-- Intro -->
+<div id="intro">
+  <div class="sun"></div>
+  <p class="script" style="font-size:2.2rem;color:#ff9ecb">Ek khaas surprise tumhare liye...</p>
+  <h2 style="margin-top:10px">Monika Didi 👑</h2>
+  <button class="btn" id="openBtn">✨ Open the Surprise ✨</button>
+</div>
+
+<!-- Side dot navigation -->
+<nav class="rail" aria-label="Sections">
+  <button class="rail-dot" data-target="hero" aria-label="Home"></button>
+  <!-- <button class="rail-dot" data-target="princess" aria-label="Princess"></button> -->
+  <button class="rail-dot" data-target="gallery" aria-label="Gallery"></button>
+  <button class="rail-dot" data-target="timeline" aria-label="Timeline"></button>
+  <button class="rail-dot" data-target="wish" aria-label="Message"></button>
+  
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+
+  <!-- <p class="script">Happy Birthday</p>
+  <h1 class="royal">Monika dii <i class="fa-solid fa-heart beat"></i></h1> -->
+
+  
+  
+  <p class="script">Happy Birthday</p>
+  <h1 class="royal">To Our Princess</h1>
+  <div class="name">Monika Didi</div>
+  <p class="princess-sub">Har ek roshni jo aasman mein uthti hai, aaj sirf tumhare liye hai. </p>
+
+
+  <div class="portrait-wrap">
+    <div class="portrait-ring"></div>
+    <div class="portrait-ring ring-2"></div>
+    <div class="portrait-frame">
+      <img src="images/dii1.png" alt="Monika dii" class="portrait-img" onerror="this.style.display='none'">
+      <div class="portrait-shine"></div>
+    </div>
+  </div>
+
+  <p class="hero-sub">Twenty-three years of love, wisdom, and quiet strength — wrapped into one extraordinary woman.</p>
+  <div class="divider">✦ ✿ ✦</div>
+
+  <div class="hero-actions">
+    <button class="btn" id="viewMemoriesBtn">View Memories <i class="fa-solid fa-arrow-down"></i></button>
+    <button class="btn btn-ghost" id="playMusicBtn">Play Music <i class="fa-solid fa-play"></i></button>
+    <button class="btn btn-ghost" id="surpriseBtn">Surprise Me <i class="fa-solid fa-gift"></i></button>
+  </div>
+  <div class="scroll">⌄ scroll karo ⌄</div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+  <span class="kicker">chapter one</span>
+  <h2>A Gallery of Golden Moments</h2>
+  <p class="sub">Every photograph, a page from the story of a woman who gave everything and asked for nothing. (Photo pe click karke bada dekho)</p>
+  <div class="grid" id="grid"></div>
+</section>
+
+<!-- Timeline -->
+<section id="timeline">
+  <span class="kicker">chapter two</span>
+  <h2>A Life, Beautifully Lived</h2>
+  <p class="sub">Some moments become memories. Others become the reasons we celebrate.</p>
+
+  <div class="timeline">
+    <div class="timeline-spine"></div>
+
+    <div class="timeline-item">
+      <span class="timeline-node"></span>
+      <div class="timeline-card glass">
+        <span class="timeline-icon"><i class="fa-solid fa-house"></i></span>
+        <h3>Where It All Began</h3>
+        <p>The day our family found its heart — the moment Monika dii became the center of everything good.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-node"></span>
+      <div class="timeline-card glass">
+        <span class="timeline-icon"><i class="fa-solid fa-hands-holding-heart"></i></span>
+        <h3>Every Sacrifice, Unspoken</h3>
+        <p>Countless quiet sacrifices, made without ever asking for thanks — the truest form of love.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-node"></span>
+      <div class="timeline-card glass">
+        <span class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+        <h3>Every Milestone, Cheered</h3>
+        <p>First steps, first days of school, every big moment — she was always there, cheering the loudest.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-node"></span>
+      <div class="timeline-card glass">
+        <span class="timeline-icon"><i class="fa-solid fa-sun"></i></span>
+        <h3>Every Sunrise, A Gift</h3>
+        <p>Today is another chapter in a life that keeps proving how much one person can give.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-node"></span>
+      <div class="timeline-card glass">
+        <span class="timeline-icon"><i class="fa-solid fa-cake-candles"></i></span>
+        <h3>Today, We Celebrate You</h3>
+        <p>Another year older, another year of being the reason our family shines. Happy Birthday, Monika dii.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wish -->
+<section id="wish">
+  <div class="scroll-box">
+    <p class="big">Dear Monika Didi,</p>
+    <h2>Happy Birthday! 🎂</h2>
+    <p>Aap meri life ki woh roshni ho jo har andhere mein raasta dikhati hai. Aapka pyaar, aapki muskaan aur aapka saath mere liye kisi royal khazane se kam nahi.</p>
+    <p>On this special day, I wish you endless happiness, good health, success, and countless beautiful moments. Thank you for your love, support, and guidance.</p>
+    <p>Bhagwan kare aapki zindagi mein hamesha khushiyon ki lanterns jalti rahein, har sapna poora ho aur aap hamesha aise hi chamakti raho. May God bless you with a long and joyful life.</p>
+    <p class="big">Aap hamesha meri Princess ho 👑💛</p>
+    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+    <button class="btn" onclick="boom()">🎉 Celebrate Karo 🎉</button>
+  </div>
+</section>
+
+<footer>
+  <div class="divider">✦ ✿ ✦</div>
+  <p class="by">Made with ❤️ & lots of love by</p>
+  <h2>Shivanshu</h2>
+  <div class="creator" id="creator"></div>
+  <p class="by">Tumhara chhota bhai</p>
+</footer>
+
+<!-- Surprise popup -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup-card glass">
+    <button class="popup-close" id="popupClose" aria-label="Close">&times;</button>
+    <div class="popup-icon"><i class="fa-solid fa-cake-candles"></i></div>
+    <h2>Happy Birthday Monika Didi <i class="fa-solid fa-heart beat"></i></h2>
+    <p>May this new year of your life sparkle just as brightly as you make ours.</p>
+  </div>
+</div>
+
+<!-- Music control -->
+<!-- <div id="music">
+  <button id="playBtn" title="Play / Pause">▶</button>
+  <label title="Apna music chuno">🎵<input type="file" id="musicFile" accept="audio/*"></label>
+</div>
+<audio id="audio" loop src="music.mp3"></audio> -->
+<!-- Floating music button -->
+<button class="music-btn" id="musicBtn" aria-label="Play birthday music">
+  <span class="music-ring"></span>
+  <i class="fa-solid fa-music" id="musicIcon"></i>
+</button>
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
